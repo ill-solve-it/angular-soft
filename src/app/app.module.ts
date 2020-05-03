@@ -6,7 +6,7 @@ import { MDBBootstrapModule, DropdownModule, InputsModule, CardsModule } from 'a
 import { MatSliderModule } from '@angular/material/slider';
 import {  } from '@angular/material/slider';
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
-
+import {MatToolbarModule} from '@angular/material/toolbar';
 
 import { AppComponent } from './app.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
@@ -14,7 +14,7 @@ import { ProductListComponent } from './product-list/product-list.component';
 
 @NgModule({
   imports: [
-    
+    MatToolbarModule,
     MatSliderModule,
     CardsModule,
     InputsModule,
